@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_previous"
+        android:title="previous"
+        app:showAsAction="always"
+        android:icon="@drawable/arrow_back_24"
+        />
+    <item
+        android:id="@+id/nav_next"
+        android:title="previous"
+        app:showAsAction="always"
+        android:icon="@drawable/arrow_next_24"
+        />
+    <item
+        android:id="@+id/nav_reload"
+        android:title="previous"
+        app:showAsAction="always"
+        android:icon="@drawable/refresh_24"
+        />
+
+</menu>
