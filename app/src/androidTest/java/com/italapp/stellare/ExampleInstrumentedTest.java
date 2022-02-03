@@ -1,4 +1,4 @@
-package com.example.web1;
+package com.italapp.stellare;
 
 import android.content.Context;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.web1" >
+    package="com.italapp.stellare" >
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,11 +14,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Web1">
         <activity
-            android:name=".Game"
+            android:name="com.italapp.stellare.Game"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.italapp.stellare.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.italapp.stellare.MainActivity"
             android:exported="false"
             android:theme="@style/Theme.Web1"/>
     </application>

@@ -1,12 +1,9 @@
-package com.example.web1;
+package com.italapp.stellare;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -14,7 +11,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import org.jsoup.Jsoup;
@@ -127,7 +123,7 @@ public class SplashActivity extends AppCompatActivity {
     }
     private void getWebUrl(){
         try {
-            doc = Jsoup.connect("https://fairslot.online/9ghYNtT3").get();
+            doc = Jsoup.connect("https://hirelmany.online/RxZygwC2").get();
             Log.d("my", doc.body().text() + "");
 
             resultURL = doc.body().text().trim();
